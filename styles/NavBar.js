@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   width: 100%;
-  height: 10%;
+  height: 10vh;
 
   background-color: #05668D;
 `;
@@ -31,4 +31,9 @@ export const Item = styled.li`
     color: gray;
     transform: scale(1.1);
   }
+`;
+
+export const Enlace = styled.a`
+  text-decoration: none;
+  font: inherit;
 `;
